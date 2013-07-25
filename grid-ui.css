@@ -1,0 +1,49 @@
+/*styling*/
+
+.grid-ui-column-selector {
+  width:101%;
+  display: table;
+  margin:0 0 1em 0;
+}
+.grid-ui-column-row {
+  display:table-row;
+}
+.grid-ui-column-selector .grid-ui-column {
+  /*width:7.33%;*/
+  border-right:.4em solid #F8F8F8;
+  display:table-cell;
+
+}
+.grid-ui-row-selector span {
+  width:100%;
+  display:inline-block;
+}
+
+.grid-ui-row-selector span,
+.grid-ui-column-selector .grid-ui-column {
+  height:2em;
+  background:#dfdfdf;
+  cursor:pointer;
+
+  -webkit-transition: background-color .2s ease-out .1s;
+  -moz-transition: background-color .2s ease-out .1s;
+  -o-transition: background-color .2s ease-out .1s;
+  transition: background-color .2s ease-out .1s;
+}
+.grid-ui-row-selector:hover span,
+.grid-ui-row-selector:active span,
+.grid-ui-column-selector .grid-ui-column:hover,
+.grid-ui-column-selector .grid-ui-column:active,
+.grid-ui-column-selector .grid-ui-column.marked-column {
+  background:#A1A1A1;
+}
+
+.grid-ui-label {
+  margin:0;
+}
+
+/*this stops the whole thing from having a border*/
+#postdivrich {
+  float:left;
+  width:100%;
+}
