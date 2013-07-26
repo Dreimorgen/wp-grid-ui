@@ -1,5 +1,7 @@
 <?php
+header('Content-Type: text/css');
 require_once('../../../wp-load.php');
+
 $row = get_option('gridui_row');
 $columns = get_option('gridui_columns');
 $prefix = get_option('gridui_prefix');
