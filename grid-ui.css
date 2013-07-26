@@ -14,16 +14,19 @@
   display:table-cell;
 
 }
-.grid-ui-row-selector span {
-  width:100%;
+.grid-ui-add-row {
+  width:100.45%;
   display:inline-block;
+  text-decoration: none!important;
 }
 
-.grid-ui-row-selector span,
+.grid-ui-add-row,
 .grid-ui-column-selector .grid-ui-column {
-  height:2em;
+  height:1.5em;
   background:#dfdfdf;
   cursor:pointer;
+
+
 
   -webkit-transition: background-color .2s ease-out .1s;
   -moz-transition: background-color .2s ease-out .1s;

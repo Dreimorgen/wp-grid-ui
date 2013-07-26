@@ -238,11 +238,16 @@ if (!class_exists('grid_ui')) {
         $prefix = get_option('gridui_prefix');
         ?>
         <script type="text/javascript">
-          var gridUiOptions = {'columnsNo' : <?php echo $columns; ?>, 'rowClass' : '<?php echo $row; ?>', 'prefixClass' : '<?php echo $prefix; ?>' };
+          var gridUIoptions = {
+            'columnsNo' : <?php echo $columns; ?>,
+            'rowClass' : '<?php echo $row; ?>',
+            'prefixClass' : '<?php echo $prefix; ?>',
+            'columnLabel' : '<?php _e("Column", "grid-ui"); ?>'
+          };
         </script>
 
         <div class="postbox-container">
-          <div id="grid-ui-ui" class="postbox closed">
+          <div id="grid-ui-ui" class="postbox">
 
             <div class="handlediv"><br /></div>
             <h3 class="hndle"><?php _e('Grid UI', 'grid-ui'); ?></h3>
@@ -250,9 +255,7 @@ if (!class_exists('grid_ui')) {
             <div class="inside">
 
               <h4><?php _e('Add a new Row (around selection)', 'grid-ui'); ?></h4>
-              <div class="grid-ui-row-selector">
-                <span></span>
-              </div>
+              <a href="javascript:gridUI.addRow();" class="grid-ui-add-row">&nbsp;</a>
 
               <h4><?php _e('Add a column (around selection)', 'grid-ui'); ?></h4>
               <div class="grid-ui-column-selector">
@@ -265,17 +268,28 @@ if (!class_exists('grid_ui')) {
                 </div>
               </div>
 
-              <!-- <div class="grid-ui-presets">
+              <?php
+                $preset_fourth = ($columns % 4 != 1) ? $columns/4 : false;
+                $preset_third = ($columns % 3 != 1) ? $columns/3 : false;
+                $preset_half = ($columns % 2 != 1) ? $columns/2 : false;
+              ?>
+              <div class="grid-ui-presets">
                 <h4><?php _e('Layout Presets', 'grid-ui') ?></h4>
-                <a class="button button-small grid-ui-preset-three-three"><?php _e('3x3 Columns', 'grid-ui'); ?></a>
-              </div> -->
+                <?php
+                  if ($preset_fourth)
+                    echo '<a class="button button-small" href="javascript:gridUI.addPreset(\'' . $preset_fourth . ',' . $preset_fourth . ',' . $preset_fourth . ',' . $preset_fourth . '\');">' . __('4 Columns', 'grid-ui') . '</a>';
 
-              <a class="button button-small grid-ui-reset"><?php _e('Remove grid elements', 'grid-ui'); ?></a>
+                  if ($preset_third)
+                    echo '<a class="button button-small" href="javascript:gridUI.addPreset(\'' . $preset_third . ',' . $preset_third . ',' . $preset_third . '\');">' . __('3 Columns', 'grid-ui') . '</a>';
+
+                  if ($preset_half)
+                    echo '<a class="button button-small" href="javascript:gridUI.addPreset(\'' . $preset_half . ',' . $preset_half . '\');">' . __('2 Columns', 'grid-ui') . '</a>';
+                ?>
+              </div>
+
+              <a class="button button-small" href="javascript:gridUI.resetGrid();"><?php _e('Remove grid elements', 'grid-ui'); ?></a>
 
             </div>
-
-
-
           </div>
         </div>
 
