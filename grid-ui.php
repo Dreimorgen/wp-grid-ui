@@ -249,12 +249,12 @@ if (!class_exists('grid_ui')) {
 
             <div class="inside">
 
+              <h4><?php _e('Add a new Row (around selection)', 'grid-ui'); ?></h4>
               <div class="grid-ui-row-selector">
-                <p class="grid-ui-label"><?php _e('Add a new Row (around selection)', 'grid-ui'); ?></p>
                 <span></span>
               </div>
 
-              <p class="grid-ui-label"><?php _e('Add a column (around selection)', 'grid-ui'); ?></p>
+              <h4><?php _e('Add a column (around selection)', 'grid-ui'); ?></h4>
               <div class="grid-ui-column-selector">
                 <div class="grid-ui-column-row">
                   <?php for ($i=0; $i < $columns; $i++) {
@@ -265,9 +265,10 @@ if (!class_exists('grid_ui')) {
                 </div>
               </div>
 
-              <div class="grid-ui-presets">
-
-              </div>
+              <!-- <div class="grid-ui-presets">
+                <h4><?php _e('Layout Presets', 'grid-ui') ?></h4>
+                <a class="button button-small grid-ui-preset-three-three"><?php _e('3x3 Columns', 'grid-ui'); ?></a>
+              </div> -->
 
               <a class="button button-small grid-ui-reset"><?php _e('Remove grid elements', 'grid-ui'); ?></a>
 

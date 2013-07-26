@@ -38,8 +38,8 @@
   background:#A1A1A1;
 }
 
-.grid-ui-label {
-  margin:0;
+.grid-ui-presets {
+  margin:0 0 1em 0;
 }
 
 /*this stops the whole thing from having a border*/
