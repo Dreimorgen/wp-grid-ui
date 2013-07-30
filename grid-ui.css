@@ -33,8 +33,8 @@
   -o-transition: background-color .2s ease-out .1s;
   transition: background-color .2s ease-out .1s;
 }
-.grid-ui-row-selector:hover span,
-.grid-ui-row-selector:active span,
+.grid-ui-add-row:hover,
+.grid-ui-add-row:active,
 .grid-ui-column-selector .grid-ui-column:hover,
 .grid-ui-column-selector .grid-ui-column:active,
 .grid-ui-column-selector .grid-ui-column.marked-column {
@@ -43,6 +43,9 @@
 
 .grid-ui-presets {
   margin:0 0 1em 0;
+}
+.grid-ui-presets .button {
+  margin-right:.5em;
 }
 
 /*this stops the whole thing from having a border*/
