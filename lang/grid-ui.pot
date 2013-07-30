@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-25 15:21+0100\n"
-"PO-Revision-Date: 2013-07-25 15:21+0100\n"
+"POT-Creation-Date: 2013-07-30 15:37+0100\n"
+"PO-Revision-Date: 2013-07-30 15:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: \n"
@@ -14,52 +14,112 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../grid-ui.php:42
-msgid "12"
-msgstr ""
-
-#: ../grid-ui.php:45
-msgid "span"
-msgstr ""
-
-#: ../grid-ui.php:48
-msgid "row"
-msgstr ""
-
-#: ../grid-ui.php:59
+#: ../grid-ui.php:50
 msgid "Grid UI Settings"
 msgstr ""
 
-#: ../grid-ui.php:60
-#: ../grid-ui.php:239
+#: ../grid-ui.php:51
+#: ../grid-ui.php:163
 msgid "Grid UI"
 msgstr ""
 
-#: ../grid-ui.php:77
-msgid "Here you can set the classes which fit for your grid system"
+#: ../grid-ui.php:67
+msgid "<br />Here you can set your grid system<br />"
 msgstr ""
 
-#: ../grid-ui.php:84
+#: ../grid-ui.php:74
+msgid "<br />Here you can set the classes which fit for your grid system<br />"
+msgstr ""
+
+#: ../grid-ui.php:81
 msgid "Number of columns"
 msgstr ""
 
-#: ../grid-ui.php:92
-msgid "Column class prefix"
+#: ../grid-ui.php:89
+msgid "Grid system"
 msgstr ""
 
-#: ../grid-ui.php:100
+#: ../grid-ui.php:97
+msgid "Use the CSS of this plugin"
+msgstr ""
+
+#: ../grid-ui.php:106
+msgid "Column classes"
+msgstr ""
+
+#: ../grid-ui.php:114
 msgid "Row class"
 msgstr ""
 
-#: ../grid-ui.php:126
-msgid "The amount of Columns has to be a numerical value!"
+#: ../grid-ui.php:155
+msgid "Column"
 msgstr ""
 
-#: ../grid-ui.php:242
+#: ../grid-ui.php:167
 msgid "Add a new Row (around selection)"
 msgstr ""
 
-#: ../grid-ui.php:246
+#: ../grid-ui.php:170
 msgid "Add a column (around selection)"
+msgstr ""
+
+#: ../grid-ui.php:187
+msgid "Layout Presets"
+msgstr ""
+
+#: ../grid-ui.php:190
+msgid "4 Columns"
+msgstr ""
+
+#: ../grid-ui.php:193
+msgid "3 Columns"
+msgstr ""
+
+#: ../grid-ui.php:196
+msgid "2 Columns"
+msgstr ""
+
+#: ../grid-ui.php:200
+msgid "Remove grid elements"
+msgstr ""
+
+#: ../grid-ui.php:227
+#: ../grid-ui.php:342
+#: ../grid-ui.php:436
+#: ../grid-ui.php:462
+msgid "Default"
+msgstr ""
+
+#: ../grid-ui.php:254
+msgid "The amount of Columns has to be a numerical value!"
+msgstr ""
+
+#: ../grid-ui.php:268
+#: ../grid-ui.php:438
+msgid "Bootstrap 2"
+msgstr ""
+
+#: ../grid-ui.php:293
+#: ../grid-ui.php:439
+msgid "Skeleton"
+msgstr ""
+
+#: ../grid-ui.php:318
+#: ../grid-ui.php:440
+msgid "Foundation"
+msgstr ""
+
+#: ../grid-ui.php:384
+#: ../grid-ui.php:393
+#: ../grid-ui.php:437
+msgid "Custom"
+msgstr ""
+
+#: ../grid-ui.php:466
+msgid "This Option is only available if the Grid system is set to Default."
+msgstr ""
+
+#: ../grid-ui.php:477
+msgid "Classes should be seperated by kommas. There should be as many as there are columns in your grid."
 msgstr ""
 

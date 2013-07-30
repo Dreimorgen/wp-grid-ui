@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grid-ui\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-25 15:21+0100\n"
-"PO-Revision-Date: 2013-07-25 15:21+0100\n"
+"POT-Creation-Date: 2013-07-30 15:40+0100\n"
+"PO-Revision-Date: 2013-07-30 15:44+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: \n"
@@ -14,52 +14,120 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../grid-ui.php:42
-msgid "12"
-msgstr "12"
-
-#: ../grid-ui.php:45
-msgid "span"
-msgstr "span"
-
-#: ../grid-ui.php:48
-msgid "row"
-msgstr "row"
-
-#: ../grid-ui.php:59
+#: ../grid-ui.php:50
 msgid "Grid UI Settings"
 msgstr "Grid UI Einstellungen"
 
-#: ../grid-ui.php:60
-#: ../grid-ui.php:239
+#: ../grid-ui.php:51
+#: ../grid-ui.php:163
 msgid "Grid UI"
 msgstr "Grid UI"
 
-#: ../grid-ui.php:77
-msgid "Here you can set the classes which fit for your grid system"
-msgstr "Hier können Sie die Klassen einstellen, die Ihrem Rastersystem entsprechen"
+#: ../grid-ui.php:67
+msgid "<br />Here you can set your grid system<br />"
+msgstr "<br />Hier können Sie Ihr CSS-Rastersystem auswählen<br />"
 
-#: ../grid-ui.php:84
+#: ../grid-ui.php:74
+msgid "<br />Here you can set the classes which fit your grid system<br />"
+msgstr "<br />Hier können Sie die Klassen einstellen, die Ihrem Rastersystem entsprechen<br />"
+
+#: ../grid-ui.php:81
 msgid "Number of columns"
 msgstr "Spaltenanzahl"
 
-#: ../grid-ui.php:92
-msgid "Column class prefix"
-msgstr "Prefix für Spaltenklassen"
+#: ../grid-ui.php:89
+msgid "Grid system"
+msgstr "Rastersystem"
 
-#: ../grid-ui.php:100
+#: ../grid-ui.php:97
+msgid "Use the CSS of this plugin"
+msgstr "Das CSS dieses Plugins benutzen"
+
+#: ../grid-ui.php:106
+msgid "Column classes"
+msgstr "Spaltenklassen"
+
+#: ../grid-ui.php:114
 msgid "Row class"
 msgstr "Zeilenklasse"
 
-#: ../grid-ui.php:126
-msgid "The amount of Columns has to be a numerical value!"
-msgstr "Die Spaltenanzahl muss ein Zahlenwert sein"
+#: ../grid-ui.php:155
+msgid "Column"
+msgstr "Spalte"
 
-#: ../grid-ui.php:242
+#: ../grid-ui.php:167
 msgid "Add a new Row (around selection)"
 msgstr "Eine neue Zeile erzeugen (aus dem ausgewählten Text)"
 
-#: ../grid-ui.php:246
+#: ../grid-ui.php:170
 msgid "Add a column (around selection)"
 msgstr "Eine neue Spalte erzeugen (aus dem ausgewählten Text)"
 
+#: ../grid-ui.php:187
+msgid "Layout Presets"
+msgstr "Layoutvorlagen"
+
+#: ../grid-ui.php:190
+msgid "4 Columns"
+msgstr "Vierspaltig"
+
+#: ../grid-ui.php:193
+msgid "3 Columns"
+msgstr "Dreispaltig"
+
+#: ../grid-ui.php:196
+msgid "2 Columns"
+msgstr "Zweispaltig"
+
+#: ../grid-ui.php:200
+msgid "Remove grid elements"
+msgstr "Raster entfernen"
+
+#: ../grid-ui.php:227
+#: ../grid-ui.php:342
+#: ../grid-ui.php:436
+#: ../grid-ui.php:462
+msgid "Default"
+msgstr "Standard"
+
+#: ../grid-ui.php:254
+msgid "The amount of Columns has to be a numerical value!"
+msgstr "Die Spaltenanzahl muss ein Zahlenwert sein"
+
+#: ../grid-ui.php:268
+#: ../grid-ui.php:438
+msgid "Bootstrap 2"
+msgstr "Bootstrap 2"
+
+#: ../grid-ui.php:293
+#: ../grid-ui.php:439
+msgid "Skeleton"
+msgstr "Skeleton"
+
+#: ../grid-ui.php:318
+#: ../grid-ui.php:440
+msgid "Foundation"
+msgstr "Foundation"
+
+#: ../grid-ui.php:384
+#: ../grid-ui.php:393
+#: ../grid-ui.php:437
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: ../grid-ui.php:466
+msgid "This Option is only available if the Grid system is set to Default."
+msgstr "Diese Option ist nur verfügbar wenn das Rastersystem auf Standard gestellt ist."
+
+#: ../grid-ui.php:477
+msgid "Classes should be seperated by kommas. There should be as many as there are columns in your grid."
+msgstr "Die Klassen sollten mit Kommas getrennt sein. Es sollte genauso viele geben wie Spalten in Ihrem Rastersystem."
+
+#~ msgid "12"
+#~ msgstr "12"
+
+#~ msgid "span"
+#~ msgstr "span"
+
+#~ msgid "row"
+#~ msgstr "row"
