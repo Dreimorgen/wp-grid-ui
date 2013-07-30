@@ -71,7 +71,7 @@ if (!class_exists('grid_ui')) {
 
       add_settings_section(
         'grid-ui-settings-classes',
-        __('<br />Here you can set the classes which fit for your grid system<br />', 'grid-ui'),
+        __('<br />Here you can set the classes which fit your grid system<br />', 'grid-ui'),
         false,
         'grid-ui-settings'
         );
@@ -432,7 +432,6 @@ if (!class_exists('grid_ui')) {
      * Add the grid system option
      */
     function option_grid_system() {
-      $grid_system = [];
       $grid_system[0] = __('Default', 'grid-ui');
       $grid_system[1] = __('Custom', 'grid-ui');
       $grid_system[2] = __('Bootstrap 2', 'grid-ui');
